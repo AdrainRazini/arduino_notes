@@ -1,0 +1,64 @@
+// --- sonata (melodia/arpejos) ---
+// Estrutura: 12 frases x 4 notas = 48 notas
+int melody[] = {
+  // Parte A - tema principal
+  NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_B4, NOTE_D5, NOTE_C5,
+  NOTE_A4, 0,
+  NOTE_C4, NOTE_E4, NOTE_A4, NOTE_B4,
+  0,
+  NOTE_E4, NOTE_GS4, NOTE_B4, NOTE_C5,
+  0,
+  NOTE_E4, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_B4, NOTE_D5,
+  NOTE_C5, NOTE_A4, 0,
+  
+  // Parte B - desenvolvimento
+  NOTE_F5, NOTE_FS5, NOTE_G5, NOTE_E5,
+  NOTE_D5, NOTE_C5, NOTE_B4,
+  NOTE_C5, NOTE_E5, NOTE_A4, NOTE_B4,
+  NOTE_C5, NOTE_D5, NOTE_E5,
+  NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_B4,
+  NOTE_D5, NOTE_C5, NOTE_A4,
+  0, NOTE_C4, NOTE_E4, NOTE_A4, NOTE_B4,
+  0,
+  
+  // Parte C - final
+  NOTE_E5, NOTE_B4, NOTE_D5, NOTE_C5,
+  NOTE_A4, 0, NOTE_C4, NOTE_E4,
+  NOTE_A4, NOTE_B4, 0, NOTE_E4,
+  NOTE_GS4, NOTE_B4, NOTE_C5, 0,
+  NOTE_E4, NOTE_E5, NOTE_DS5, NOTE_E5,
+  NOTE_DS5, NOTE_E5, NOTE_B4, NOTE_D5,
+  NOTE_C5, NOTE_A4, 0
+};
+
+int noteDurations[] = {
+  // Parte A
+  8,8,8,8,8,8,8,8,
+  4,
+  8,8,8,8,
+  4,
+  8,8,8,8,
+  4,
+  8,8,8,8,8,8,8,8,
+  8,8,4,
+  
+  // Parte B 
+  8,8,8,8,
+  8,8,8,
+  8,8,8,8,
+  8,8,8,
+  8,8,8,8,8,8,
+  8,8,8,
+  4,8,8,8,8,
+  4,
+  
+  // Parte C
+  8, 8, 8, 8,
+  8, 4, 8, 8,
+  8, 8, 4, 8,
+  8, 8, 8, 4,
+  8, 8, 8, 8,
+  8, 8, 8, 8,
+  8, 4
+};
+
